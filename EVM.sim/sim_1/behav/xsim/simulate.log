@@ -1,0 +1,21 @@
+Time resolution is 1 ps
+ERROR: Could not open vcd file dump.vcd. A VCD file by name dump.vcd has already been opened. Only one VCD file is allowed to be open.
+                   0 mode = 0, button1 = 0, button2 = 0, button3 = 0, button4 = 0, led =   x
+                   5 mode = 0, button1 = 0, button2 = 0, button3 = 0, button4 = 0, led =   0
+                 205 mode = 0, button1 = 1, button2 = 0, button3 = 0, button4 = 0, led =   0
+                 215 mode = 0, button1 = 0, button2 = 0, button3 = 0, button4 = 0, led =   0
+                 220 mode = 0, button1 = 1, button2 = 0, button3 = 0, button4 = 0, led =   0
+                 335 mode = 0, button1 = 1, button2 = 0, button3 = 0, button4 = 0, led = 255
+                 420 mode = 0, button1 = 0, button2 = 0, button3 = 0, button4 = 0, led = 255
+                 435 mode = 0, button1 = 0, button2 = 0, button3 = 0, button4 = 0, led =   0
+                 445 mode = 0, button1 = 0, button2 = 1, button3 = 0, button4 = 0, led =   0
+                 565 mode = 0, button1 = 0, button2 = 1, button3 = 0, button4 = 0, led = 255
+                 645 mode = 0, button1 = 0, button2 = 0, button3 = 0, button4 = 0, led = 255
+                 665 mode = 0, button1 = 0, button2 = 0, button3 = 0, button4 = 0, led =   0
+                 670 mode = 0, button1 = 0, button2 = 1, button3 = 1, button4 = 0, led =   0
+                 715 mode = 0, button1 = 0, button2 = 1, button3 = 1, button4 = 0, led = 255
+                 815 mode = 0, button1 = 0, button2 = 1, button3 = 1, button4 = 0, led =   0
+                 835 mode = 0, button1 = 0, button2 = 1, button3 = 1, button4 = 0, led = 255
+                 870 mode = 0, button1 = 0, button2 = 0, button3 = 0, button4 = 0, led = 255
+                 895 mode = 1, button1 = 0, button2 = 1, button3 = 0, button4 = 0, led = 255
+                 965 mode = 1, button1 = 0, button2 = 1, button3 = 0, button4 = 0, led =   3

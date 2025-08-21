@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Aug 21 18:38:43 2025
+# Process ID: 27052
+# Current directory: C:/Users/sommu/EVM/EVM.runs/synth_1
+# Command line: vivado.exe -log VotingMachine.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source VotingMachine.tcl
+# Log file: C:/Users/sommu/EVM/EVM.runs/synth_1/VotingMachine.vds
+# Journal file: C:/Users/sommu/EVM/EVM.runs/synth_1\vivado.jou
+# Running On        :SOM
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-12450H
+# CPU Frequency     :2496 MHz
+# CPU Physical cores:8
+# CPU Logical cores :12
+# Host memory       :8241 MB
+# Swap memory       :11274 MB
+# Total Virtual     :19516 MB
+# Available Virtual :3911 MB
+#-----------------------------------------------------------
+source VotingMachine.tcl -notrace

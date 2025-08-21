@@ -1,0 +1,222 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Aug 21 18:38:43 2025
+# Process ID: 27052
+# Current directory: C:/Users/sommu/EVM/EVM.runs/synth_1
+# Command line: vivado.exe -log VotingMachine.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source VotingMachine.tcl
+# Log file: C:/Users/sommu/EVM/EVM.runs/synth_1/VotingMachine.vds
+# Journal file: C:/Users/sommu/EVM/EVM.runs/synth_1\vivado.jou
+# Running On        :SOM
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-12450H
+# CPU Frequency     :2496 MHz
+# CPU Physical cores:8
+# CPU Logical cores :12
+# Host memory       :8241 MB
+# Swap memory       :11274 MB
+# Total Virtual     :19516 MB
+# Available Virtual :3911 MB
+#-----------------------------------------------------------
+source VotingMachine.tcl -notrace
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 514.613 ; gain = 199.281
+Command: synth_design -top VotingMachine -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 25444
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 973.027 ; gain = 453.453
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'VotingMachine' [C:/Users/sommu/EVM/EVM.srcs/sources_1/new/ElectronicsVotingMachine.v:133]
+INFO: [Synth 8-6157] synthesizing module 'buttonControl' [C:/Users/sommu/EVM/EVM.srcs/sources_1/new/ElectronicsVotingMachine.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'buttonControl' (0#1) [C:/Users/sommu/EVM/EVM.srcs/sources_1/new/ElectronicsVotingMachine.v:3]
+INFO: [Synth 8-6157] synthesizing module 'VoteLogger' [C:/Users/sommu/EVM/EVM.srcs/sources_1/new/ElectronicsVotingMachine.v:95]
+INFO: [Synth 8-6155] done synthesizing module 'VoteLogger' (0#1) [C:/Users/sommu/EVM/EVM.srcs/sources_1/new/ElectronicsVotingMachine.v:95]
+INFO: [Synth 8-6157] synthesizing module 'ModuleControl' [C:/Users/sommu/EVM/EVM.srcs/sources_1/new/ElectronicsVotingMachine.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'ModuleControl' (0#1) [C:/Users/sommu/EVM/EVM.srcs/sources_1/new/ElectronicsVotingMachine.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'VotingMachine' (0#1) [C:/Users/sommu/EVM/EVM.srcs/sources_1/new/ElectronicsVotingMachine.v:133]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1083.266 ; gain = 563.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1083.266 ; gain = 563.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1083.266 ; gain = 563.691
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1083.266 ; gain = 563.691
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 4     
+	   2 Input    4 Bit       Adders := 4     
++---Registers : 
+	                8 Bit    Registers := 5     
+	                4 Bit    Registers := 4     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 9     
+	   3 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Device 21-9227] Part: xc7z010clg400-1 does not have CEAM library.
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:38 . Memory (MB): peak = 1278.707 ; gain = 759.133
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:38 . Memory (MB): peak = 1278.707 ; gain = 759.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:38 . Memory (MB): peak = 1278.707 ; gain = 759.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:44 . Memory (MB): peak = 1278.707 ; gain = 759.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:44 . Memory (MB): peak = 1278.707 ; gain = 759.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:44 . Memory (MB): peak = 1278.707 ; gain = 759.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:44 . Memory (MB): peak = 1278.707 ; gain = 759.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:44 . Memory (MB): peak = 1278.707 ; gain = 759.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:44 . Memory (MB): peak = 1278.707 ; gain = 759.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |     9|
+|4     |LUT2   |    11|
+|5     |LUT3   |    10|
+|6     |LUT4   |    35|
+|7     |LUT5   |    23|
+|8     |LUT6   |    20|
+|9     |FDRE   |    91|
+|10    |IBUF   |     7|
+|11    |OBUF   |     8|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+----------------+------+
+|      |Instance |Module          |Cells |
++------+---------+----------------+------+
+|1     |top      |                |   223|
+|2     |  MC     |ModuleControl   |    69|
+|3     |  VL     |VoteLogger      |    84|
+|4     |  bc1    |buttonControl   |    14|
+|5     |  bc2    |buttonControl_0 |    14|
+|6     |  bc3    |buttonControl_1 |    13|
+|7     |  bc4    |buttonControl_2 |    13|
++------+---------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:44 . Memory (MB): peak = 1278.707 ; gain = 759.133
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:44 . Memory (MB): peak = 1278.707 ; gain = 759.133
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:44 . Memory (MB): peak = 1278.707 ; gain = 759.133
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1284.445 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1383.945 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: c475b3ea
+INFO: [Common 17-83] Releasing license: Synthesis
+21 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:47 . Memory (MB): peak = 1383.945 ; gain = 869.332
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1383.945 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/sommu/EVM/EVM.runs/synth_1/VotingMachine.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file VotingMachine_utilization_synth.rpt -pb VotingMachine_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 21 18:39:46 2025...
