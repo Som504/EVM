@@ -23,7 +23,6 @@ The design is based on the following FSM flow:
 
 ![Flowchart](Flowchart.png)
 
-*(Add your saved flowchart image as `flowchart.png` in the repo so it renders here)*
 
 ---
 
